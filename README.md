@@ -2,5 +2,5 @@
 ## Quick Start
 + Run  
 ```
-docker run -e CONF_DIR
+docker run -v /tmp/:/tmp/ -e CONF_DIR='zblog'
 ```
