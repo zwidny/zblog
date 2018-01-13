@@ -12,8 +12,8 @@
         }
         stage("Deploy to staging") {
             steps {
-                sh "docker run -d -v /tmp:/tmp -e CONFIG_DIR='zblog' --name zblog zwidny/zblog"
-            } 
+                sh "docker run -d -v /tmp:/tmp -e CONF_DIR='zblog' --name zblog zwidny/zblog"
+            }
         }
         stages {
               stage("Run Unit test"){
