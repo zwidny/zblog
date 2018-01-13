@@ -10,4 +10,4 @@ RUN chmod +x cmd.sh
 
 COPY src src
 WORKDIR /repos/zblogs/src
-CMD ['/repos/zblogs/cmd.sh']
+CMD ["/repos/zblogs/cmd.sh"]
