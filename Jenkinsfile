@@ -1,5 +1,6 @@
  pipeline {
         agent any
+        stages{
         stage("Docker build") {
             steps {
              sh "docker build -t zwidny/zblog ."
@@ -16,3 +17,4 @@
             }
         }
  }
+}
