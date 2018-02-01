@@ -101,3 +101,7 @@ venv.bak/
 # mkdocs documentation
 # /site
 
+
+# Personal ignore
+.idea
+**/*.sqlite3
